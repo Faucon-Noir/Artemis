@@ -1,0 +1,24 @@
+{
+    "title": "Athena Portfolio",
+    "header": {
+        "home": "Home",
+        "code": "Programming",
+        "photo": "Photos",
+        "video": "Videos",
+        "contact": "Contact"
+    },
+    "footer": {
+        "legal": "Legal notices",
+        "allRights": " © 2024 Athena. All rights reserved"
+    },
+    "components": {
+        "error": {
+            "text": "An error occured: {{errorMsg}}"
+        },
+        "home": {
+            "title": "Athena Portfolio",
+            "subtitle": "Welcome",
+            "text": "Here is my portfolio. You will find my different projects in various fields."
+        }
+    }
+}

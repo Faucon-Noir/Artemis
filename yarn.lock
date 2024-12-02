@@ -1630,9 +1630,11 @@ __metadata:
     eslint-plugin-react-refresh: "npm:^0.4.9"
     globals: "npm:^15.9.0"
     i18next: "npm:^24.0.2"
+    i18next-browser-languagedetector: "npm:^8.0.0"
+    i18next-http-backend: "npm:^3.0.1"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
-    react-i18next: "npm:^15.1.1"
+    react-i18next: "npm:^15.1.3"
     react-redux: "npm:^9.1.2"
     react-router-dom: "npm:^7.0.1"
     typescript: "npm:^5.5.3"
@@ -1870,6 +1872,15 @@ __metadata:
     path-type: "npm:^4.0.0"
     yaml: "npm:^1.10.0"
   checksum: 10c0/b923ff6af581638128e5f074a5450ba12c0300b71302398ea38dbeabd33bbcaa0245ca9adbedfcf284a07da50f99ede5658c80bb3e39e2ce770a99d28a21ef03
+  languageName: node
+  linkType: hard
+
+"cross-fetch@npm:4.0.0":
+  version: 4.0.0
+  resolution: "cross-fetch@npm:4.0.0"
+  dependencies:
+    node-fetch: "npm:^2.6.12"
+  checksum: 10c0/386727dc4c6b044746086aced959ff21101abb85c43df5e1d151547ccb6f338f86dec3f28b9dbddfa8ff5b9ec8662ed2263ad4607a93b2dc354fb7fe3bbb898a
   languageName: node
   linkType: hard
 
@@ -2881,6 +2892,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"i18next-browser-languagedetector@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "i18next-browser-languagedetector@npm:8.0.0"
+  dependencies:
+    "@babel/runtime": "npm:^7.23.2"
+  checksum: 10c0/08a7c747ec18a0743b54390a0b42836d814b15fb49c92b90c259298e6a6e7e001ff9df99d0fd308283a34fceea53b4d9053aa1695a37f696bc04160017bbb524
+  languageName: node
+  linkType: hard
+
+"i18next-http-backend@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "i18next-http-backend@npm:3.0.1"
+  dependencies:
+    cross-fetch: "npm:4.0.0"
+  checksum: 10c0/b3bc73d19a9ffd7e2c0f9f253b652b347b3d787caeecdf9e69fa865788d1e83974675ddd6673d084949126a085f0f131420fcbf7263aee7f9ca3f9bfe3d1f0d2
+  languageName: node
+  linkType: hard
+
 "i18next@npm:^24.0.2":
   version: 24.0.2
   resolution: "i18next@npm:24.0.2"
@@ -3582,6 +3611,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"node-fetch@npm:^2.6.12":
+  version: 2.7.0
+  resolution: "node-fetch@npm:2.7.0"
+  dependencies:
+    whatwg-url: "npm:^5.0.0"
+  peerDependencies:
+    encoding: ^0.1.0
+  peerDependenciesMeta:
+    encoding:
+      optional: true
+  checksum: 10c0/b55786b6028208e6fbe594ccccc213cab67a72899c9234eb59dba51062a299ea853210fcf526998eaa2867b0963ad72338824450905679ff0fa304b8c5093ae8
+  languageName: node
+  linkType: hard
+
 "node-gyp@npm:latest":
   version: 10.2.0
   resolution: "node-gyp@npm:10.2.0"
@@ -3887,9 +3930,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-i18next@npm:^15.1.1":
-  version: 15.1.1
-  resolution: "react-i18next@npm:15.1.1"
+"react-i18next@npm:^15.1.3":
+  version: 15.1.3
+  resolution: "react-i18next@npm:15.1.3"
   dependencies:
     "@babel/runtime": "npm:^7.25.0"
     html-parse-stringify: "npm:^3.0.1"
@@ -3901,7 +3944,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: 10c0/c1e8af21422cdaa1a493b1d73502a496aab84c3318de1137bb56b1f2f37eae4ba5856cf079b0a0abe9f2a18e0457c986ad2e43e70875f7cd43d0efa2f70897a5
+  checksum: 10c0/2f8de1757f5b4d91e034f621c0bf6422fad3cde0687d11d4fe87822db86f264c6c3512a26fafe03d91ea691b3c441ba5ca490f4e5611e147df985ee133265089
   languageName: node
   linkType: hard
 
@@ -4534,6 +4577,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tr46@npm:~0.0.3":
+  version: 0.0.3
+  resolution: "tr46@npm:0.0.3"
+  checksum: 10c0/047cb209a6b60c742f05c9d3ace8fa510bff609995c129a37ace03476a9b12db4dbf975e74600830ef0796e18882b2381fb5fb1f6b4f96b832c374de3ab91a11
+  languageName: node
+  linkType: hard
+
 "ts-api-utils@npm:^1.3.0":
   version: 1.3.0
   resolution: "ts-api-utils@npm:1.3.0"
@@ -4764,6 +4814,23 @@ __metadata:
   version: 3.1.0
   resolution: "void-elements@npm:3.1.0"
   checksum: 10c0/0b8686f9f9aa44012e9bd5eabf287ae0cde409b9a2854c5a2335cb83920c957668ac5876e3f0d158dd424744ac411a7270e64128556b451ed3bec875ef18534d
+  languageName: node
+  linkType: hard
+
+"webidl-conversions@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "webidl-conversions@npm:3.0.1"
+  checksum: 10c0/5612d5f3e54760a797052eb4927f0ddc01383550f542ccd33d5238cfd65aeed392a45ad38364970d0a0f4fea32e1f4d231b3d8dac4a3bdd385e5cf802ae097db
+  languageName: node
+  linkType: hard
+
+"whatwg-url@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "whatwg-url@npm:5.0.0"
+  dependencies:
+    tr46: "npm:~0.0.3"
+    webidl-conversions: "npm:^3.0.0"
+  checksum: 10c0/1588bed84d10b72d5eec1d0faa0722ba1962f1821e7539c535558fb5398d223b0c50d8acab950b8c488b4ba69043fd833cc2697056b167d8ad46fac3995a55d5
   languageName: node
   linkType: hard
 

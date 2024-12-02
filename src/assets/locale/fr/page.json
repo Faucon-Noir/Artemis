@@ -1,0 +1,51 @@
+{
+    "admin": {
+        "login": {
+            "title": "Connexion",
+            "description": "Connectez-vous pour accéder à l'administration du site",
+            "warning": "Attention, vous êtes en zone sécurisée. Toute tentative de connexion non autorisée sera enregistrée",
+            "email": "Adresse email",
+            "password": "Mot de passe",
+            "button": "Connexion"
+        },
+        "register": {
+            "title": "Inscription",
+            "description": "Inscrivez-vous pour accéder à l'administration du site",
+            "username": "Nom d'utilisateur",
+            "email": "Adresse email",
+            "password": "Mot de passe",
+            "confirm": "Confirmez le mot de passe",
+            "button": "S'inscrire"
+        },
+        "dashboard": {
+            "title": "Tableau de bord",
+            "description": "Bienvenue sur le tableau de bord de l'administration du site"
+        },
+        "profile": {
+            "title": "Profil",
+            "description": "Modifiez votre profil"
+        },
+        "logout": "Déconnexion",
+        "warning": "Attention, vous êtes en zone protégée. Toute tentative de connexion non autorisée sera enregistrée"
+    },
+    "home": {
+        "title": "Athena Portfolio",
+        "subtitle": "Bienvenue",
+        "description": "Voici mon site vitrine. Vous pourrez retrouver mes différents projets dans différents domaines"
+    },
+    "legal": {
+        "title": "Mentions légales",
+        "description": "Vous trouverez ici les mentions légales du site"
+    },
+    "photos": {
+        "title": "Photos",
+        "description": "Ici vous retrouverez la plupart des photos que j'ai prises"
+    },
+    "videos": {
+        "title": "Vidéos",
+        "description": "Ici vous retrouverez plusieurs montages réalisés par mes soins, principalement sous DaVinci Resolve.\nLes rushs originaux proviennent soit de moi même, soit d'associations pour lesquelles j'ai travaillé"
+    },
+    "test": {
+        "title": "Test"
+    }
+}

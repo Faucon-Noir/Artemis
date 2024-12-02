@@ -1,0 +1,23 @@
+{
+    "title": "Athena Portfolio",
+    "header": {
+        "home": "Accueil",
+        "code": "Programmation",
+        "photo": "Photos",
+        "video": "Vidéos"
+    },
+    "adminheader": {
+        "admin": "Administration",
+        "profile": "Profil",
+        "logout": "Déconnexion"
+    },
+    "footer": {
+        "legal": "Mentions légales",
+        "allRights": " © 2024 Athena. Tous droits réservés"
+    },
+    "components": {
+        "error": {
+            "text": "Une erreur est survenue: {{errorMsg}}"
+        }
+    }
+}

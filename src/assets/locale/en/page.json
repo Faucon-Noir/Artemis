@@ -1,0 +1,30 @@
+{
+    "admin": {
+        "login": {
+            "title": "Login",
+            "description": "Log in to access site administration"
+        },
+        "register": {
+            "title": "Register",
+            "description": "Register to access site administration"
+        },
+        "warning": "Please note that you are in a secure zone. Any unauthorized action will be recorded."
+    },
+    "home": {
+        "title": "Athena Portfolio",
+        "subtitle": "Welcome",
+        "description": "This is my showcase site. You can find my different projects in various fields"
+    },
+    "legal": {
+        "title": "Legal notices",
+        "description": "Here you will find all the legal information about this website"
+    },
+    "photos": {
+        "title": "Photos",
+        "description": "Here you'll find most of the photos I've taken"
+    },
+    "videos": {
+        "title": "Videos",
+        "description": "Here you'll find a number of edits I've made, mainly with DaVinci Resolve, for associations or personal projects"
+    }
+}
