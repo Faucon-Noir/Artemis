@@ -40,7 +40,6 @@ const LoginPage: React.FC = () => {
 					type="text"
 					placeholder="Username"
 					autoComplete="username"
-					style={TextFieldStyle}
 					// onChange={(e) =>
 					// 	setCredentials({
 					// 		...credentials,
@@ -48,11 +47,11 @@ const LoginPage: React.FC = () => {
 					// 	})
 					// }
 				/>
+
 				<input
 					type="password"
 					placeholder="Password"
 					autoComplete="password"
-					style={TextFieldStyle}
 					// onChange={(e) =>
 					// 	setCredentials({
 					// 		...credentials,

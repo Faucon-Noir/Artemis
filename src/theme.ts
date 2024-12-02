@@ -49,6 +49,30 @@ const theme = createTheme({
 					minHeight: "100vh",
 					fontFamily: "'SansationLight', sans-serif !important",
 				},
+				input: {
+					border: "1px solid #fff",
+					borderRadius: "15px",
+					margin: "5px",
+					height: "30px",
+					padding: "10px",
+				},
+			},
+		},
+		MuiButton: {
+			styleOverrides: {
+				root: {
+					borderRadius: "8px",
+					textTransform: "none",
+					padding: "8px 16px",
+				},
+				contained: {
+					borderColor: "#FFFFFF",
+					"&:hover": {},
+				},
+				outlined: {
+					borderColor: "#FFFFFF",
+					"&:hover": {},
+				},
 			},
 		},
 	},
