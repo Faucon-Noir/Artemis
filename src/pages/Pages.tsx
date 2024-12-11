@@ -4,12 +4,24 @@ import HomePage from "./Home";
 import Layout from "./Layout";
 import LegalPage from "./Legal";
 import LoginPage from "./Login";
-import { Home, Legal, Login, Photos, Register, Test, Videos } from "./paths";
+import {
+	Admin,
+	Home,
+	Legal,
+	Login,
+	Photos,
+	Profile,
+	Register,
+	Test,
+	Videos,
+} from "./paths";
 import PhotoPage from "./Photos";
 import RegisterPage from "./Register";
 import TestPage from "./Test";
 import VideosPage from "./Videos";
 import ErrorComponent from "../components/error";
+import AdminPage from "./Admin";
+import ProfilePage from "./Profile/Profile";
 
 const Pages = () => {
 	// const { hasMinRole } = useRole();
@@ -31,10 +43,10 @@ const Pages = () => {
 			{/* <Route element={<ProtectedRoute minRole={UserRoles.PendingUser} />}>
 				<Route path={Home} element={<Layout />}>
 					{hasMinRole(UserRoles.Moderator) ? (
-						<>
-							<Route path={Admin} element={<AdminPage />} />
-							<Route path={Profile} element={<ProfilePage />} />
-						</>
+						<>*/}
+			<Route path={Admin} element={<AdminPage />} />
+			<Route path={Profile} element={<ProfilePage />} />
+			{/*</>
 					) : (
 						<Route path={Waiting} element="TestPage" />
 					)}

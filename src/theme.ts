@@ -1,5 +1,4 @@
 import { createTheme } from "@mui/material/styles";
-
 const theme = createTheme({
 	palette: {
 		background: {
@@ -11,10 +10,10 @@ const theme = createTheme({
 			disabled: "#FFFFFFDE",
 		},
 		primary: {
-			main: "#1976d2",
+			main: "#021027",
 		},
 		secondary: {
-			main: "#dc004e",
+			main: "#000000",
 		},
 	},
 	typography: {
@@ -66,10 +65,12 @@ const theme = createTheme({
 					padding: "8px 16px",
 				},
 				contained: {
+					color: "#FFFFFF",
 					borderColor: "#FFFFFF",
 					"&:hover": {},
 				},
 				outlined: {
+					color: "#FFFFFF",
 					borderColor: "#FFFFFF",
 					"&:hover": {},
 				},

@@ -1,8 +1,6 @@
 import { Box, Button } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import { FormStyle, TextFieldStyle } from "./style";
-import { useDispatch } from "react-redux";
-import { useState } from "react";
+import { FormStyle } from "./style";
 
 const LoginPage: React.FC = () => {
 	const { t } = useTranslation("page", { keyPrefix: "admin.login" });

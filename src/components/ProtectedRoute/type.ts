@@ -1,5 +1,5 @@
-import { UserRoles } from 'utils/enum';
+// import { UserRoles } from 'utils/enum';
 
-export type RequireMinRoleProps = {
-    minRole: UserRoles;
-};
+// export type RequireMinRoleProps = {
+//     minRole: UserRoles;
+// };
